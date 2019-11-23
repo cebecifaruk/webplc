@@ -1,0 +1,38 @@
+.box {
+    height:50px;
+    width:100px;
+
+    stroke:#656565;
+    stroke-width:4;
+    fill: transparent;
+    background-color: #F0F0F0;
+}
+
+.txt { 
+    font: 14px sans-serif;
+    stroke-width: 0px;
+    fill: black;
+    cursor: default;
+}
+
+.selected {
+    background-color: yellow;
+}
+
+.contextmenu {
+    position : absolute;
+    display : none;
+    background: gray;
+    cursor: default;
+}
+
+.container_size{
+     position : absolute;
+    height:55px;
+    width:50px;
+   background: gray;
+}
+
+.contextmenuitem:hover {
+    background-color: white;
+}
